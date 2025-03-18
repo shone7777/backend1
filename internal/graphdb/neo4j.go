@@ -8,12 +8,6 @@ import (
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 )
 
-const (
-	NEO4J_URI      = "neo4j+s://f7e7cfaa.databases.neo4j.io"
-	NEO4J_USERNAME = "neo4j"
-	NEO4J_PASSWORD = "RGmhMOjWaM-2wYUl9h6XjrJdC33WQ089Ji5eZPkK1a8"
-)
-
 var Neo4jDriver neo4j.DriverWithContext
 
 func InitializeNeo4j() error {
